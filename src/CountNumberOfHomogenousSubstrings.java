@@ -1,5 +1,13 @@
 import java.util.HashMap;
 
+/**
+ * Given a string s, return the number of homogenous substrings of s. Since the answer may be too large,
+ * return it modulo 109 + 7.
+ *
+ * A string is homogenous if all the characters of the string are the same.
+ *
+ * A substring is a contiguous sequence of characters within a string.
+ * */
 public class CountNumberOfHomogenousSubstrings {
     // the most brute force approach
     public int countHomogenous2(String s) {
