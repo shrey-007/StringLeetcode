@@ -1,0 +1,2 @@
+package MinimumOperations;public class MinimumNumberOfFlipsToMakeTheBinaryStringAlternating {
+}
