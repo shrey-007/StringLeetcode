@@ -74,6 +74,11 @@ public class CountBeautifulSubstringsI {
      * Why this works?
      * We need to find number of substrings which have vowel=consonant, let vowel=1, consonant=-1, so question reduces to
      * find number of subarrays with sum 0. This is already solved, That's why this approach works
+     *
+     * You know the best part of this question?
+     * I solved it myself, using both approach, maine kahi hint, youtube discuss section kahi nhi dekha khud se kra, means
+     * i am getting better at leedcode.
+     * However this below soltion also gives TLE, but this same aproach works for c++ without TLE, so don't worry
      * * */
 
     public long beautifulSubstrings(String s, int k) {
